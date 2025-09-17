@@ -37,6 +37,7 @@ class Solution {
                     if( left < right && nums[left] == nums[left+1] ) left++;
                     if( left < right && nums[right] == nums[right-1]) right++;
 
+                    //Tiến cả 2 vì: 2 con trỏ đã được loại bỏ trùng lặp tổng == 0 nên chỉ tiến 1 trong 2 chắc chắn !=0 
                     left++;
                     right--;
 
